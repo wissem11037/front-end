@@ -4,12 +4,14 @@ import { EnseignantsComponent } from './enseignants/enseignants.component';
 import { ListcoursComponent } from './listcours/listcours.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
+import { VoirplusComponent } from './voirplus/voirplus.component';
 
 const routes: Routes = [{path: 'main', component: MainComponent},
                         {path: '', component: MainComponent},
                         {path: 'cours', component: ListcoursComponent},
                         {path: 'login', component: LoginComponent},
-                        {path: 'enseignants', component: EnseignantsComponent}];
+                        {path: 'enseignants', component: EnseignantsComponent},
+                        {path: 'voirplus', component: VoirplusComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

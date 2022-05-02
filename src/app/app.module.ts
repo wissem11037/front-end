@@ -24,6 +24,7 @@ import { CoursComponent } from './cours/cours.component';
 import { FooterComponent } from './footer/footer.component';
 import { ListcoursComponent } from './listcours/listcours.component';
 import { EnseignantsComponent } from './enseignants/enseignants.component';
+import { VoirplusComponent } from './voirplus/voirplus.component';
 
 
 
@@ -38,6 +39,7 @@ import { EnseignantsComponent } from './enseignants/enseignants.component';
     FooterComponent,
     ListcoursComponent,
     EnseignantsComponent,
+    VoirplusComponent,
    
   ],
   imports: [
