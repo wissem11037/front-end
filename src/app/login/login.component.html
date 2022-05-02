@@ -1,0 +1,40 @@
+<div class="comp">
+
+<mat-card class="main">
+    <mat-card class="title">
+        <h1 class="login">LOGIN</h1>
+    </mat-card>
+    <form class="connexion" >
+        <p class="mailL">adresse mail:</p>
+        <mat-form-field class="mail" appearance="fill">
+         
+          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+                 placeholder="Ex. pat@example.com">
+        
+          <mat-error class="error" *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            adress e-mail
+          </mat-error>
+          <mat-error class="error" *ngIf="emailFormControl.hasError('required')">
+            Email est <strong>obligatoire</strong>
+          </mat-error>
+        </mat-form-field>
+        <p class="passL">mot de passe:</p>
+        <mat-form-field class="password" >
+            
+            <input type="password" matInput [formControl]="mdpFormControl" [errorStateMatcher]="matcher">
+          
+            <mat-error *ngIf="mdpFormControl.hasError('mdp') && !mdpFormControl.hasError('required')">
+              mot de passe
+            </mat-error>
+            <mat-error class="error" *ngIf="mdpFormControl.hasError('required')">
+              le mot de passe est <strong>obligatoire</strong>
+            </mat-error>
+          </mat-form-field>
+          <button mat-raised-button class="btn" type="submit" >se connecter</button>
+      </form>
+
+<p class="forgot">forgot password? <a href="#" class="clickhere">click here</a></p>
+
+</mat-card>
+
+</div>

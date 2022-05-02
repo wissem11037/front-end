@@ -1,0 +1,207 @@
+.comp{min-height: 100vh;
+    width: 100%;
+    background: url('../../../src/assets/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.main{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 600px;
+height: 775px;
+left: 73px;
+top: 10px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.login{
+    position: absolute;
+    width: 424px;
+    height: 130px;
+    left: 222px;
+    top: 50px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 36px;
+    /* or 60% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+.connexion {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+ .title{position: absolute;
+    width: 570px;
+    height: 210px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1C58B0;
+    border-radius: 50px;}
+  .mail{display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    
+    position: absolute;
+    width: 519px;
+    height: 48px;
+    left: 25px;
+    top: 342px;
+    
+    background: #FFFFFF;
+    /* default */
+    
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;} 
+    .password{display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 12px;
+        
+        position: absolute;
+        width: 519px;
+        height: 48px;
+        left: 25px;
+        top: 470px;
+        
+        background: #FFFFFF;
+        /* default */
+        
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;}
+        .mailL{position: absolute;
+            width: 128px;
+            height: 43px;
+            left: 30px;
+            top: 290px;
+            
+            /* v-text/button */
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 36px;
+            /* or 257% */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 1.25px;
+            text-transform: uppercase;
+            
+            color: #000000;}
+            
+.passL{
+position: absolute;
+width: 128px;
+height: 43px;
+left: 30px;
+top: 430px;
+
+/* v-text/button */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+
+color: #000000;
+
+            }
+
+.error{color: red;
+margin-top:30px;
+left: 150px;}
+.clickhere{color:#FCC02E;}
+.forgot{
+    position: absolute;
+width: 472px;
+height: 31px;
+left: 150px;
+top: 690px;
+
+/* v-text/button */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+
+color: #000000;
+} 
+
+.btn{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    
+    position: absolute;
+    width: 187px;
+    height: 65px;
+    left: 390px;
+    top: 600px;
+    
+    background: #FCC02E;
+    border-radius: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 36px;
+    /* identical to box height, or 257% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    
+    /* shades/white */
+    
+    color: #FFFFFF;}
