@@ -1,5 +1,5 @@
 
-<mat-card class="mainc"> 
+<mat-card class="mainc" *ngIf="nav.visible"> 
   <mat-toolbar color="primary" class="bar" >
     <a  href="#" class="logo"><mat-icon>donut_small</mat-icon></a>
     <form class="example-form ">
@@ -16,10 +16,10 @@
       
    
     
-      <a mat-list-item class="link1" href="#">COURS</a>
-      <a mat-list-item class="link2" href="#">ENSEIGNANTS</a>
+      <a mat-list-item class="link1" routerLink="/cours" routerLinkActive="active">COURS</a>
+      <a mat-list-item class="link2" routerLink="/enseignants" routerLinkActive="active">ENSEIGNANTS</a>
       </mat-nav-list>
-      <button mat-raised-button class="btn" >se connecter</button>
+      <button mat-raised-button class="btn" routerLink="/login" routerLinkActive="active">se connecter</button>
     </mat-toolbar>
 </mat-card>
  

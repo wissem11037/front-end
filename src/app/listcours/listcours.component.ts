@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavService } from '../service/nav.service';
 
 @Component({
   selector: 'app-listcours',
@@ -8,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class ListcoursComponent implements OnInit {
 
 
-  constructor() { }
+  constructor(public nav:NavService) { }
 
   ngOnInit(): void {
+    this.nav.show()
   }
 
 }
