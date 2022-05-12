@@ -25,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ListcoursComponent } from './listcours/listcours.component';
 import { EnseignantsComponent } from './enseignants/enseignants.component';
 import { VoirplusComponent } from './voirplus/voirplus.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -56,7 +57,9 @@ import { VoirplusComponent } from './voirplus/voirplus.component';
     MatInputModule,
     MatDividerModule,
     ReactiveFormsModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
